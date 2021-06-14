@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var s string = "hogefuga"
@@ -11,4 +13,11 @@ func main() {
 	fmt.Println(si)
 	fmt.Printf("%T\n", si)
 
+	fmt.Println(`hoge
+	fuga
+		piyo`)
+	fmt.Println("\"")
+	fmt.Println(`"`)
+	fmt.Println(s[0])
+	fmt.Println(string(s[0]))
 }
