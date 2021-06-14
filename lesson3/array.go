@@ -23,4 +23,13 @@ func main() {
 	fmt.Println(arr2[1])
 	fmt.Println(arr2[2])
 	fmt.Println(arr2[2-1])
+
+	arr2[2] = "fugafuaga"
+	fmt.Println(arr2)
+
+	// var arr5 [4]int
+	// arr5 = arr1
+	// fmt.Println(arr5)
+
+	fmt.Println(len(arr2))
 }
