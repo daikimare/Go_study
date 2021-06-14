@@ -14,7 +14,7 @@ func main() {
 
 	// change byte from string
 	c := []byte("HI")
-	fmt.Println(c)
+fmt.Println(c)
 
 	fmt.Println(string(c))
 }
