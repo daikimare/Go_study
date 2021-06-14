@@ -18,4 +18,9 @@ func main() {
 	arr4 := [...]string{"a", "b", "c", "d"}
 	fmt.Println(arr4)
 	fmt.Printf("%T\n", arr4)
+
+	fmt.Println(arr2[0])
+	fmt.Println(arr2[1])
+	fmt.Println(arr2[2])
+	fmt.Println(arr2[2-1])
 }
